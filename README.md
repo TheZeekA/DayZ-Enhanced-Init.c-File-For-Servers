@@ -14,6 +14,7 @@ A comprehensive server-side modification for DayZ that adds advanced player mana
 
 #### **Player Registration & Tracking**
 - Automatic player registration on first connection
+- Notifies player about the current amount of other players on the server when they join
 - Steam ID to player name mapping
 - Connection history tracking
 - Player statistics (kills, deaths, K/D ratio)
@@ -36,7 +37,7 @@ A comprehensive server-side modification for DayZ that adds advanced player mana
 ```
 /chat local    - Switch to local chat only
 /chat global   - Switch to global chat
-/killfeed on   - Enable kill feed notifications
+/killfeed on   - Enable kill feed notifications (Is ON for ALL Players By Default)
 /killfeed off  - Disable kill feed notifications
 /stats         - Display personal statistics
 ```
@@ -87,11 +88,11 @@ A comprehensive server-side modification for DayZ that adds advanced player mana
 ### System Configuration (`sysConfig.json`)
 ```json
 {
-  "killFeedNotifyMinutes": 1,
+  "killFeedNotifyMinutes": 0.2,
   "autoSaveMinutes": 4,
   "kickPlayersOnDuplicateName": 1,
   "serverRestartMinutes": 384,
-  "debug_enabled": 1
+  "debug_enabled": 0
 }
 ```
 
