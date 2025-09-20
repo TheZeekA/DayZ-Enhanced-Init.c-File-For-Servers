@@ -83,7 +83,7 @@ A comprehensive server-side modification for DayZ that adds advanced player mana
 3. Start your server to generate default configuration files
 4. Customize settings in the generated JSON files as needed
 
-## ⚙️ Configuration
+## ⚙️ Configuration (These files will be in server rootfolder/config)
 
 ### System Configuration (`sysConfig.json`)
 ```json
