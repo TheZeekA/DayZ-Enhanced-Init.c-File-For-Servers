@@ -134,3 +134,4 @@ This system is designed to be robust and self-maintaining. All configurations ar
 ---
 
 *Transform your DayZ server into a professional, well-managed gaming environment with this comprehensive enhancement package.*
+*Credit for idea and initial inic.c goes to https://github.com/joncantarino/DayZVanillaInit*
