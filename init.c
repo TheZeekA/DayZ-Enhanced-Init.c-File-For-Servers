@@ -753,39 +753,6 @@ class CustomMission: MissionServer
 		  
 		return d;
 	}
-/*
-CONTROL DE FECHAS 
-
-	int fromYMDToDays(int y, int m, int d){
-		m = (m + 9) % 12;
-		y = y - m/10;
-
-		return  365 * y + y / 4 - y / 100 + y / 400 + ( m * 306 + 5) / 10 + ( d - 1 );
-	}
-
-	int diffDays(string date1, string date2){
-
-	    int y1 = date1.Substring(0, date1.IndexOf("-")).ToInt();
-	    int y2 = date2.Substring(0, date2.IndexOf("-")).ToInt();
-	
-	    date1 = date1.Substring(date1.IndexOf("-") + 1, date1.Length());
-	    date2 = date2.Substring(date2.IndexOf("-") + 1, date2.Length());
-	    
-	    int m1 = date1.Substring(0, date1.IndexOf("-")).ToInt();
-	    int m2 = date2.Substring(0, date2.IndexOf("-")).ToInt();
-	
-	    date1 = date1.Substring(date1.IndexOf("-") + 1, date1.Length());
-	    date2 = date2.Substring(date2.IndexOf("-") + 1, date2.Length());
-	    
-	    int d1 = date1.ToInt();
-	    int d2 = date2.ToInt();
-
-	    int days1 = fromYMDToDays(y1, m1, d1);
-	    int days2 = fromYMDToDays(y2, m2, d2);
-
-	    return days2 - days1;
-	}
-*/
 	string getNameWithoutNumber(string name)
 	{
 		if(name.Length() > 4)
