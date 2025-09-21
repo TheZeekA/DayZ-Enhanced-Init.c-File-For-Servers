@@ -1,6 +1,6 @@
 # 🎮 DayZ Enhanced Server Management System
 
-A comprehensive server-side modification for DayZ that adds advanced player management, chat systems, and administrative tools to enhance your server experience. This enhanced file is perfect for those who run servers without any mods and wish to keep the vanilla experience. This enhanced file will make your server look more professional.
+A comprehensive server-side modification for DayZ that adds advanced player management, chat systems, and administrative tools to enhance your server experience. This enhanced file is perfect for those who run servers without any mods and wish to keep the vanilla experience. This enhanced file will make your server look more professional. This init.c file has been customised and developed for the 1NZ Oceanic Gamers DAYZ Vanilla Server.
 
 ## ✨ Features
 
